@@ -1,5 +1,3 @@
-use std::collections::BTreeSet;
-
 use itertools::Itertools;
 
 const TEST_INPUT: &str = include_str!("../../test_input/day5.txt");
@@ -12,14 +10,12 @@ pub fn solve() -> u64 {
 
     // let mut bt_set: BTreeSet<(u64, u64)> = BTreeSet::new();
     let mut bt_set: Vec<(u64, u64)> = Vec::new();
-    let mut i = 0;
 
     for l in id_ranges.lines() {
         let (start, end) = l.split_once("-").unwrap();
         // let mut temp_bt: BTreeSet<u64> = (start.parse().unwrap()..=end.parse().unwrap()).collect();
         // bt_set.append(&mut temp_bt);
         bt_set.push((start.parse().unwrap(), end.parse().unwrap()));
-        i += 1;
     }
 
     let cnt = aval_ids

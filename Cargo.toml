@@ -6,3 +6,4 @@ edition = "2024"
 [dependencies]
 grid = "1.0.0"
 itertools = "0.14.0"
+transpose = "0.2.3"

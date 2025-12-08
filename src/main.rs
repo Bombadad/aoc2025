@@ -12,4 +12,5 @@ fn main() {
     println!("day 05: {}", day_05::solve());
     println!("day 05: {}", day_05::solve_2());
     println!("day 06: {}", day_06::solve());
+    println!("day 06: {}", day_06::solve_2());
 }

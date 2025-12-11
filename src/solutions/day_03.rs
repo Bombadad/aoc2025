@@ -1,4 +1,4 @@
-use itertools::{Itertools, enumerate};
+use itertools::Itertools;
 
 const TEST_INPUT: &str = include_str!("../../test_input/day3.txt");
 const INPUT: &str = include_str!("../../input/day_03.txt");

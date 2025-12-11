@@ -1,6 +1,5 @@
-use std::collections::{HashSet, VecDeque};
+use std::collections::VecDeque;
 
-use grid::Grid;
 use itertools::Itertools;
 
 const TEST_INPUT: &str = include_str!("../../test_input/day7.txt");

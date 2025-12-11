@@ -1,5 +1,5 @@
 use grid::Grid;
-use itertools::{Itertools, enumerate};
+use itertools::Itertools;
 
 const TEST_INPUT: &str = include_str!("../../test_input/day4.txt");
 const INPUT: &str = include_str!("../../input/day_04.txt");

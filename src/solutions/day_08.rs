@@ -1,7 +1,4 @@
-use std::{
-    cmp::Ordering,
-    collections::HashMap,
-};
+use std::{cmp::Ordering, collections::HashMap};
 
 use itertools::Itertools;
 
